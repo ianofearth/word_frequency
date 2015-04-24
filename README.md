@@ -1,5 +1,4 @@
 #Author name: Ian Bevel
-==========================
 #Program name: word_frequency
 #Description: <p>The word_frequency program is a ruby program that will return the number of times an entered word appears in an entered phrase.</p>
 #Set-up instructions: <p>The word_frequency program is called in irb by copy/pasting the code from word_frequency.rb into the irb shell, then typing in all lowercase: ('any single word').word_frequency('any phrase of words').  Refer to Gemfile.lock for required gems and their versions.</p>
