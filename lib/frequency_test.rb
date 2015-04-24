@@ -13,7 +13,7 @@ class String
 		end
 		#frequency = desired_word.length()
 		#frequency_final = frequency.to_s
-		frequency = desired_word.length.to_s()
+		#frequency = desired_word.length.to_s()
 		frequency
 
 
