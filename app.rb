@@ -8,7 +8,8 @@ get('/') do
 end
 
 get('/word_frequency') do
-	@primary_word = params.fetch('input_word')
-	test_words = params.fetch('input_phrase')
+	@input_word = params.fetch('input_word')
+	input_phrase= params.fetch('input_phrase')
+	@result= (@input_word).word_frequency(input_phrase)
 	erb(:word_frequency)
 end
