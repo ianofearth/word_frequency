@@ -1,0 +1,14 @@
+require('sinatra')
+require('sinatra/reloader')
+require('./lib/word_frequency')
+also_reload('lib/**/*.rb')
+
+get('/') do
+	erb(:index)
+end
+
+get('/word_frequency') do
+	@primary_word = params.fetch('input_word')
+	test_words = params.fetch('input_phrase')
+	erb(:word_frequency)
+end
